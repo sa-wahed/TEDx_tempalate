@@ -1,0 +1,97 @@
+/* 
+ * Custom page CSS
+ * -------------------------------------------------- 
+ */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background:white;
+}
+
+.social_link i{
+	
+	color:white;
+	padding:10px 13px;
+	background:yellow;
+}
+.homepage_contant_title{
+  margin-right: -15px;
+  margin-left: -15px;
+  display:block;
+  overflow:hidden;
+  border-bottom:2px solid #FF5722;
+}
+.homepage_contant_title p{
+	font-size:12px;
+	margin:0px;
+	padding:0px;
+	color:green;
+}
+.homepage_contant_title p:nth-child(1){
+	font-size:15px;
+	background:#FF5722;
+	padding:6px 15px;
+	color:white;
+	font-weight:bold;
+}
+.homepage_contant_title p:nth-child(2){
+	font-size: 14px;
+    margin: 7px 0px 0px 15px;
+	color: black;
+}
+.homepage_contant_title p:nth-child(3){
+	margin-top:10px;
+}
+.homepage_contant_title p:nth-child(3) a{
+	color:#FF5722;
+	text-decoration:noene;
+}
+#footer .copywriter-bar {
+  background: #292929;
+}
+
+.footer_text p {
+  margin-top: 10px;
+  color: #62666d;
+  font-size: 0.75rem;
+}
+
+.footer_topbar {
+  background: #414141;
+  color: black;
+  font-size: 0.75rem;
+}
+
+.footer_topbar_like {
+  margin-bottom: 30px;
+}
+
+.footer_topbar_like h3 {
+  font-size: 0.75rem;
+  margin-top: 30px;
+}
+
+.footer_topbar_like p {
+  padding: 8px 0px 0px 0px;
+  margin: 0px;
+}
+
+.footer_topbar_like a {
+  text-decoration: none;
+  color: #62666d;
+  font-size: 0.75rem;
+}
+
+.footer_topbar_like a:hover {
+  color: black;
+}
+
+.footer_topbar_image img {
+  float: left;
+  margin-top: 50px;
+  width: 92px;
+  height: 100px;
+}
